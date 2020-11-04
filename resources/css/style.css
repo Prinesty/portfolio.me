@@ -1,0 +1,61 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("../images/workspace.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.headline {
+  color: #fff;
+}
+
+.hello {
+  border: 3px solid #fff;
+}
+
+@media only screen
+and (max-width: 600px) {
+  .hello {
+    border: none;
+  }
+}
+
+.brief {
+  border-left: 2px solid #0e6281;
+  text-transform: uppercase;
+}
+
+
+.about-me {
+  line-height: 2;
+}
+
+.cv {
+  background-color: #0e6281;
+}
+
+footer {
+  background-image: url("../images/workspace2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+
+.social a {
+  color: #ffffff;
+}
+
+.social a:hover {
+  color: #0e6281;
+}
